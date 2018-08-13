@@ -1,38 +1,93 @@
-header {background: #ebebeb;text-align: center;padding: 30px 30px;margin: 1% 1% ; position: relative;left: 40%;}
-body.style {font-family: Arial, Helvetica, sans-serif; color: #777; background: #777; width: 960px; font-size: 18px;text-align: center;}
-nav.style {background: #ebebeb; text-align: center;padding: 30px 100px;margin: 1% 1%; position: relative;left: 40%;}
-section.style {
-    background: #ebebeb;
-    border: "10px";
-    width:45%;
-    height: 300px;
-    float:left;
-    margin: 0 1.5%;
-    text-align: center;
-    position: relative;
-    left: 40%;
-    padding: 0 auto;
 
+
+body.style {
+    background: #777;
+	color: #777;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0.5% 20%;
+    overflow: hidden;
+	width: 960px;
+    }
+
+	
+header.style {
+    background: #ebebeb;
+	margin: 1%;
+    padding: 5%;
+	text-align: center; 
 }
+
+
+nav.style{
+    background: #ebebeb;
+	margin: 1%;
+	padding: 5%;
+    text-align: center;
+}
+
+
+section.style {
+    background:#ebebeb;
+    float: left;
+    height: 330px;
+	margin: 2% 1% 1% 1%;
+    padding: 30px 5px 0 10px;
+	position: relative;
+	text-align: center;
+    width: 550px;
+    
+}
+
+
+article.style {
+    background: #777;
+    color: #ebebeb;
+    height: 242.5px;
+    margin: 18px 0 0 0;
+    padding: 20px 10px 10px;
+    text-align: center;
+	width: 530px;
+}
+
+
+h1.style {
+    background: #ebebeb;
+    color: #777;
+    height: 50px;
+    margin: 76px 0px 5px;
+    padding: 5px;
+    width: 510px;
+}
+
+
+p.style {
+    background: #ebebeb;
+    color: #777;
+    height: 50px;
+    margin: 10px 0px 0px;
+    padding: 5px;
+	width: 510px;
+}
+
 
 aside.style {
-    background: #ebebeb;
-    border: "10px";
-    width:45%;
-    height: 300px;
-    float:left;
-    margin: 0 1.5%;
-    text-align: center;
+    background:#ebebeb;
+    float: left;
+    height: 330px;
+    margin: 2% 1% 1.5% 2%;
+    padding: 30px 0 0 0;
     position: relative;
-    left: 44%;
-    padding: 0 auto;
-
+	text-align: center;
+    width: 360px;
+    
 }
-footer.style {background: #ebebeb;}
-article.style {color: "#ebebeb";background: "#777";}
-h1.style {color:"#777";background: "#ebebeb";}
-P1.style {color:"#777";background: "#ebebeb";}
 
 
-
-
+Footer.style {
+    background: #ebebeb;
+    margin: 40% 1% 10% 1%;
+    padding: 5%;
+	position: relative;
+	text-align: center;
+}
